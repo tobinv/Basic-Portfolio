@@ -1,0 +1,83 @@
+
+body {
+
+	background-color: #efeee7; 
+	font-family: Times,serif; 
+	color: #333333; 
+	margin: 0; 
+	padding: 0;
+	}
+
+
+header {
+
+	background-color: #4aaaa5; /* teal */
+	width: 20%;
+	text-align: left;
+	}
+
+
+
+h1 {
+	font-size: 40px;
+	color: #eee; 
+	
+
+	}
+
+
+
+h2 {
+	font-size: 24px;
+	}
+
+
+
+.container {
+	width: 960px; 
+	margin: 0 auto;
+	
+	
+	}
+
+
+
+#nav {
+	text-align: right;
+	top: 10px;
+}
+
+
+#main-bio {
+	float: left; 
+	width: 70%;
+	}
+
+
+
+#contact-info {
+	float: left; 
+	line-height: 150%;
+	}
+
+
+
+#bio-image {
+	float: left; 
+	width: 200px;
+	margin: 10px;
+	}
+
+
+
+#content-info {
+	width: 30%;
+	}
+
+
+
+a {
+	color: #d21034;
+	}
+
+
