@@ -1,11 +1,15 @@
 
 body {
-
-	background-color: #fae7af; /* whole background color*/
+	
+	background-color: #ffffff; 
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+	
 	font-family: Times,serif; 
 	color: #333333; 
 	margin: 0; 
 	padding: 0;
+	
 	}
 
 
@@ -100,17 +104,22 @@ h2 {
 
 #wholepage {
 	position: static;
+	background-image: url(/Users/tobinvarghese/Documents/BootCamp/Homework/Basic-Portfolio/assets/images/criz.png);
 	border-bottom: solid #4aaaa5;
+	border-bottom-width:thick;
 	width: 100%;
+	height: 601px;
 	
 }
 
 .container {
-	position: static;
+	/*  position: static;  */
 	width: 960px; 
-
+	
 	margin: 0px auto;
-	padding: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 	
 	
 	}
@@ -118,11 +127,10 @@ h2 {
 #topcontain {
 	position: static;
 	width: 960px; 
-	
-	
-	
+
 	margin: 0px auto;
 	padding: 0px;
+
 }
 
 
@@ -147,6 +155,7 @@ h2 {
 	top: -360px;
 	background-color: #ffffff;
 	width: 270px; 
+	height: 200px;
 	
 	
 	}
@@ -198,13 +207,16 @@ h2 {
 
 	width: 50px;
 	height: 50px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 #allicons {
 position: relative;
 display: block;
 margin: 0 auto;
-width: 60%;
+width: 70%;
+padding-top: 20px;
 
 
 }
