@@ -15,7 +15,7 @@ header {
 	width: 275px;
 	height:60px;
 	text-align: left;
-	top:16px;
+	top:12px;
 
 	}
 
@@ -25,29 +25,62 @@ header {
 	position: relative;
 	font-size: 40px;
 	top:10px;
+	text-align: center;
 
 }
 
 
 #nav {
+	font-family: Arial;
+	font-size: 12px;
 	position: relative;
+	left: -115px;
 	text-align: right;
 	top: -30px;
+	color: #dddddd;
+
 }
 
 
 
-#title {
-	color: blue;
-	padding: 15px;
-}
+a {
+	font-family: Arial;
 
-h1 {
-	font-size: 40px;
-	color: #eee; 
+	color: #666666;
 	
 
 	}
+
+
+
+#title1 {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Georgia;
+	color: #4aaaa5;
+	padding: 20px;
+}
+
+#central {
+	position: relative;
+	text-align: center;
+	top: 5px;
+
+}
+
+
+#title {
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Georgia;
+	color: #4aaaa5;
+	padding: 20px;
+}
+
+
+	
+
+
 
 
 
@@ -69,7 +102,7 @@ h2 {
 	position: static;
 	border-bottom: solid #4aaaa5;
 	width: 100%;
-	border-top: solid;
+	
 }
 
 .container {
@@ -94,10 +127,11 @@ h2 {
 
 
 #container2 {
+	
 	position: relative;
 	left: -155px;
 	width: 650px; 
-	height: 400px;
+	
 	background-color: #ffffff;
 	margin: 0px auto;
 	
@@ -107,12 +141,12 @@ h2 {
 
 
 #container3 {
+	position: relative;
 	
-	float: right;
+	left: 700px;
+	top: -360px;
 	background-color: #ffffff;
 	width: 270px; 
-	
-	margin: 0 auto;
 	
 	
 	}
@@ -134,7 +168,10 @@ h2 {
 
 #mybio {
 	line-height: 1.5;
-	padding: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 1px;
 	
 	}
 
@@ -150,13 +187,26 @@ h2 {
 	float: left; 
 	width: 200px;
 	height: 200px;
-	padding: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 1px;
 }
 
 
 #icons {
+
 	width: 50px;
 	height: 50px;
+}
+
+#allicons {
+position: relative;
+display: block;
+margin: 0 auto;
+width: 60%;
+
+
 }
 
 
@@ -164,10 +214,5 @@ h2 {
 
 
 
-
-
-a {
-	color: #d21034;
-	}
 
 
