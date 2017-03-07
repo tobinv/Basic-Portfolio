@@ -1,14 +1,20 @@
+html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+
+}
+
 
 body {
-	
+	height: 100%;
 	background-color: #ffffff; 
-	background-repeat: repeat-x;
-	background-repeat: repeat-y;
-	
+	background-image: url("../images/criz.png");
+	display: ;
 	font-family: Times,serif; 
 	color: #333333; 
-	margin: 0; 
+	margin: 0px auto; 
 	padding: 0;
+
 	
 	}
 
@@ -18,72 +24,18 @@ header {
 	background-color: #4aaaa5; /* teal */
 	width: 275px;
 	height:60px;
-	text-align: left;
-	top:12px;
+	vertical-align: bottom;
+	
+
 
 	}
-
-
-
-#tab {
-	position: relative;
-	font-size: 40px;
-	top:10px;
-	text-align: center;
-
-}
-
-
-#nav {
-	font-family: Arial;
-	font-size: 12px;
-	position: relative;
-	left: -115px;
-	text-align: right;
-	top: -30px;
-	color: #dddddd;
-
-}
-
 
 
 a {
 	font-family: Arial;
-
 	color: #666666;
-	
 
 	}
-
-
-
-#title1 {
-	font-size: 30px;
-	font-weight: bold;
-	font-family: Georgia;
-	color: #4aaaa5;
-	padding: 20px;
-}
-
-#central {
-	position: relative;
-	text-align: center;
-	top: 5px;
-
-}
-
-
-#title {
-	font-size: 18px;
-	font-weight: bold;
-	font-family: Georgia;
-	color: #4aaaa5;
-	padding: 20px;
-}
-
-
-	
-
 
 
 
@@ -93,96 +45,167 @@ h2 {
 	}
 
 
-#wholetop {
-	position: static;
-	background-color: #ffffff;
-	border-bottom: solid #dddddd;
-	width: 100%;
-	
-}
+
 
 
 #wholepage {
-	position: static;
-	background-image: url(/Users/tobinvarghese/Documents/BootCamp/Homework/Basic-Portfolio/assets/images/criz.png);
-	border-bottom: solid #4aaaa5;
-	border-bottom-width:thick;
-	width: 100%;
-	height: 601px;
+	position: absolute;
+
+	
+	
+	top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    overflow: scroll;
 	
 }
 
-.container {
-	/*  position: static;  */
-	width: 960px; 
-	
-	margin: 0px auto;
+
+
+
+
+
+
+
+
+
+/*  TOP SECTION  */
+
+
+#top {
+	position: relative;
 	padding-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
+	background-color: #ffffff;
+	border-bottom: solid #dddddd;
 	
-	
-	}
 
-#topcontain {
-	position: static;
-	width: 960px; 
+	
+}
+
+#topinner {
+	width: 960px;
+	height: 60px;
 
 	margin: 0px auto;
-	padding: 0px;
+	
+
 
 }
 
 
-#container2 {
-	
+
+#menumove {
 	position: relative;
-	left: -155px;
-	width: 650px; 
+	top: -40px;
+	left: -100px;
+	float: right;
+}
+
+
+
+#tab {
+	position: relative;
+	padding-top: 8px;
+	font-size: 40px;
+	text-align: center;	
+
+}
+
+
+
+
+
+
+
+#nav {
 	
-	background-color: #ffffff;
+	height: 60px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #dddddd;
+	
+}
+
+#cons {
+
+	 padding-left: 5px;
+	 padding-right: 5px;
+}
+
+
+
+
+
+
+/*  MIDDLE SECTION W/ CONTENT  */
+
+#middle {
+	position: relative;
 	margin: 0px auto;
+	padding-top: 30px;
+	
+	width: 960px;
+	height: calc(100vh - 25%);
 	
 	
 	
 	}
 
 
-#container3 {
+
+#about {
 	position: relative;
+	width: 650px;
 	
-	left: 700px;
-	top: -360px;
+	float: left;
 	background-color: #ffffff;
-	width: 270px; 
-	height: 200px;
-	
-	
-	}
-
-#bottom {
-
-	background-color: #666666;
-	width: 100%;
-	height: 70px;
 }
 
+#aboutpad {
 
-#feet {
-	text-align: center;
-	position: relative;
-	top:25px;
+	padding: 30px;
 }
-
 
 #mybio {
-	line-height: 1.5;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-top: 1px;
+line-height: 1.5;
+
+
+}
+
+#connect {
 	
-	}
+	width: 270px;
+	top: 0px;
+	left: 0px;
+	float: right;
+	background-color: #ffffff;
+}
+
+#connectpad {
+
+	padding: 25px;
+}
+
+#title1 {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Georgia;
+	color: #4aaaa5;
+
+}
+
+
+
+
+#title {
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Georgia;
+	color: #4aaaa5;
+
+}
+
 
 #lilhr {
 	width: 230px;
@@ -193,14 +216,15 @@ h2 {
 }
 
 #mypic {
-	float: left; 
+
 	width: 200px;
 	height: 200px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-top: 1px;
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 5px;
+
 }
+
 
 
 #icons {
@@ -209,19 +233,57 @@ h2 {
 	height: 50px;
 	padding-left: 5px;
 	padding-right: 5px;
+
+	
 }
 
 #allicons {
-position: relative;
-display: block;
-margin: 0 auto;
-width: 70%;
-padding-top: 20px;
+
+display: flex;
+margin: 0px auto;
+padding-top: 10px;
+padding-left: 20px;
 
 
 }
 
 
+#centerico {
+	margin: 0px auto;
+}
+
+
+
+
+
+
+
+/*  BOTTOM SECTION  */
+
+
+#bottom {
+	
+	position: relative;
+	background-color: gray;
+	clear:both;
+	text-align: center;
+	border-top: solid #4aaaa5;
+	border-top-width:thick;
+	height: calc(100vh - 89%);
+}
+
+#feet {
+	position: relative;
+	padding-top: 20px;
+}
+
+
+
+img.port {
+	width: 142px;
+	height: 142px;
+	padding: 10px;
+}
 
 
 
