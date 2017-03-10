@@ -400,9 +400,21 @@ textarea {
 	min-height: 30px;
 	border-radius: 0px;
 
+
 }
 
 
+input.subm:hover {
+	background-color: lightblue;
+}
+
+.tbox:hover {
+	outline-color: #ffb2b2;
+}
+
+#cons:hover {
+	color: #8b814c;
+}
 
 /* 
 
