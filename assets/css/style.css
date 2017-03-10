@@ -45,7 +45,9 @@ h2 {
 	}
 
 
-
+#tab {
+	color: #ffffff;
+}
 
 
 #wholepage {
@@ -208,6 +210,7 @@ line-height: 1.5;
 	font-weight: bold;
 	font-family: Georgia;
 	color: #4aaaa5;
+	text-align: center;
 
 }
 
@@ -334,41 +337,96 @@ padding-left: 20px;
 }
 
 
-.1 {
-
-}
+/* ------   form   ------*/
 
 
-
-.two {
-
-}
-
-
-
-.port3 {
-}
-
-
-
-.port4 {
-
-}
-
-
-
-.port5 {
-
-}
-
-
-
-
-
+#nav2 {
 	
+	font-family: Arial;
+	font-size: 16px;
+	color: #888888;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	
+}
 
 
 
+
+.tbox {
+
+	display: block;
+	text-indent: 5px;
+  	margin-bottom: 12px;
+  	width: 100%;
+  	height: 30px;
+  	font-family: arial;
+  	font-size: 12px;
+  	-webkit-appearance: none;
+  	-moz-appearance: none;
+  	appearance: none;
+  	box-shadow: none;
+  	border-radius: none;
+	color: #111111;
+	border: none;
+	outline: solid 1px;
+	outline-color: lightgray;
+}
+
+#warn {
+	font-style: italic;
+	color: #dddddd;
+	font-family: arial;
+	font-size: 10px;
+}
+
+
+textarea {
+	
+	max-width: 100%;
+	min-height: 150px;
+	
+	
+}
+
+.subm {
+	margin-top: 10px;
+	background-color: #4aaaa5;
+	box-shadow: 0px;
+	border: 0px;
+	color: #ffffff;
+	outline: none;
+	min-width: 100px;
+	min-height: 30px;
+
+}
+
+
+
+/* 
+
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+   
+    background-position: 10px 10px; 
+  
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
+input[type=text]:focus {
+    width: 100%;
+}
+
+
+*/
 
 
 
