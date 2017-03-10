@@ -398,6 +398,7 @@ textarea {
 	outline: none;
 	min-width: 100px;
 	min-height: 30px;
+	border-radius: 0px;
 
 }
 
